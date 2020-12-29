@@ -1,6 +1,9 @@
 # LiteQueue
 Lightweight, persisted, thread safe, (optionally) transactional, FIFO queue built on [LiteDB](https://github.com/mbdavid/litedb).
 
+### No longer maintained
+This repo is no longer maintained. If you are interested in taking up the mantle, fork and let me know. There biggest current issue is that this is not compatible with the latest version of LiteDB. Unit tests of multi-threaded operations fail when attempting to upgrade it. Solve that and this project is yours.
+
 ### Background
 
 On unattended or embedded systems, it is often a requirement to reliably deliver messages even when the network is periodically down or the machine is power cycled. When using Windows, [Microsoft Message Queuing (MSMQ)](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing) is an old standby for queuing and can be [called](https://docs.microsoft.com/en-us/dotnet/api/system.messaging.messagequeue?view=netframework-4.7.1) from .NET code. But what if we want to use .NET Core and be OS portable?
