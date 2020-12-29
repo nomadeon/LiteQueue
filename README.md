@@ -2,7 +2,7 @@
 Lightweight, persisted, thread safe, (optionally) transactional, FIFO queue built on [LiteDB](https://github.com/mbdavid/litedb).
 
 ### No longer maintained
-This repo is no longer maintained. If you are interested in taking up the mantle, fork and let me know (create an Issue, not a PR). There biggest current issue is that this is not compatible with the latest version of LiteDB. Unit tests of multi-threaded operations fail when attempting to upgrade it. Solve that and this project is yours.
+This repo is no longer maintained. If you are interested in taking up the mantle, fork and let me know (create an Issue, not a PR). The biggest current issue is that this is not compatible with the latest version of LiteDB. Unit tests of multi-threaded operations fail when attempting to upgrade it. Solve that and this project is yours.
 
 ### Background
 
